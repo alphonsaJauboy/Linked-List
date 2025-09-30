@@ -31,15 +31,12 @@ struct list* insertAtEnd(struct list* head,int data){
     newNode->next=NULL;
     return head;
 }
-int main(){
-    struct list* head=createNode(10);
-    head->next=NULL;
+int main() {
+    struct list* head = createNode(10);
+    head->next = NULL;
     print(head);
-    head=insertAtEnd(head,12);
+    head = insertAtEnd(head, 12);
     print(head);
     return 0;
 }
-
-
   
-   
