@@ -19,8 +19,8 @@ void print(struct list*head){
     printf("NULL\n");
 }
 int main(){
-    struct list* head=createNode(10);
-    struct list* second=createNode(20);
+    struct list* head=createNode(11);
+    struct list* second=createNode(12);
     head->next=second;
     second->next=NULL;
     print(head);
