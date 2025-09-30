@@ -32,11 +32,11 @@ struct list* insertAtEnd(struct list* head,int data){
     return head;
 }
 int main() {
-    struct list* head = createNode(10);
+    struct list* head = createNode(11);
     head->next = NULL;
     print(head);
     head = insertAtEnd(head, 12);
-    printf("Linked List: ");
+    printf("Linked List(after insertion): ");
     print(head);
     return 0;
 }
